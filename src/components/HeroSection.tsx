@@ -15,7 +15,7 @@ const HeroSection = ({ scrollY }: HeroSectionProps) => {
         className="absolute inset-0 opacity-20"
         style={{ transform: `translateY(${parallaxOffset}px)` }}
       >
-        <div className="w-full h-full bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23000000" fill-opacity="0.1"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
+        <div className="w-full h-full bg-[url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23000000\" fill-opacity=\"0.1\"%3E%3Ccircle cx=\"30\" cy=\"30\" r=\"2\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
       </div>
       
       <div className="relative z-10 text-center text-white px-4">
@@ -30,7 +30,7 @@ const HeroSection = ({ scrollY }: HeroSectionProps) => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-          Chennai's 70-year temperature story told through the language of financial markets
+          Chennai&apos;s 70-year temperature story told through the language of financial markets
         </p>
         
         <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-8 py-4 border border-white/20">
